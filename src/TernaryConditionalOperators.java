@@ -44,6 +44,6 @@ public class TernaryConditionalOperators {
         boolean racerOrder = (firstAge < secondAge) ? true : false;
         String racerStart = racerOrder ? "The first racer on team " + raceName +" is the youngest!" : "The first racer on team " + raceName + " is the oldest racer!";
         System.out.println(racerStart);
-
+        // Test
     }
 }
