@@ -33,11 +33,15 @@ public class TernaryConditionalOperators {
             System.out.println("They can not drink!");
         }
 
+        // Small program that compares the ages of two different racers! This will simply print if the first racer is younger or older using the ternary operator.
+        // By comparing the two and assigning a boolean value, we can then introduce this info to the user. The MAJOR downfall of this program is---- what if they're the same age?? and for that I say
+        // we can make it a double data type!
+
         String raceName = "Clear Sky";
         int firstAge = 25;
-        int sescondAge = 22;
+        int secondAge = 22;
 
-        boolean racerOrder = (firstAge < sescondAge) ? true : false;
+        boolean racerOrder = (firstAge < secondAge) ? true : false;
         String racerStart = racerOrder ? "The first racer on team " + raceName +" is the youngest!" : "The first racer on team " + raceName + " is the oldest racer!";
         System.out.println(racerStart);
 
