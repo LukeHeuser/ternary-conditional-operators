@@ -12,6 +12,7 @@ public class TernaryConditionalOperators {
         String canVote = (age >= 18) ? "They can vote!" : "They can not vote!" ;
         System.out.println(canVote);
 
+
         // if-then-else statement
         age = 17;
         if(age >= 18){
